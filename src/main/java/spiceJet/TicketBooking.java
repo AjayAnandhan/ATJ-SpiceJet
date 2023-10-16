@@ -100,10 +100,10 @@ public class TicketBooking {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Email']"))).click();
 		System.out.println("100");
 		
-		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("ajaya73635@gmail.com");
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("");
 		System.out.println("103");
 		
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("A73635@dan");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("");
 		System.out.println("106");
 		
 		driver.findElement(By.cssSelector("div[data-testid='login-cta']")).click();
