@@ -79,9 +79,9 @@ public class BestBuy {
 		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[normalize-space()='Sign In'])[1]"))).click();
 		
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#fld-e"))).sendKeys("ajaya73635@gmail.com");
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#fld-e"))).sendKeys("");
 		
-		driver.findElement(By.cssSelector("#fld-p1")).sendKeys("A73635@dan");
+		driver.findElement(By.cssSelector("#fld-p1")).sendKeys("");
 		
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		
